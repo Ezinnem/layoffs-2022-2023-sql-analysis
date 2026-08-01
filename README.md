@@ -108,4 +108,3 @@ Using `DENSE_RANK()` partitioned by year let me pull the top 5 companies for eac
 
 Beyond the specific numbers, this project was a good exercise in a core analytical skill: moving from a single flat aggregate (SUM, MAX) toward layered, comparative questions using CTEs and window functions. The rolling total and the per-year ranking were the two queries that took the analysis from "here are some numbers" to "here's a story."
 
-Next step: visualizing this in [Tableau/Power BI/Python] to make the trend and ranking findings easier to communicate to a non-technical audience. That'll be Part 3.
