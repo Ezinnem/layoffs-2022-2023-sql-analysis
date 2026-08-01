@@ -1,4 +1,4 @@
-# Tech Layoffs 2022–2023: Exploratory Data Analysis (Part 2)
+2022–2023: Exploratory Data Analysis (Part 2)
 
 In [Part 1](https://github.com/Ezinnem/sql-layoffs-data-cleaning), I cleaned and standardized the raw tech layoffs dataset: removing duplicates, fixing null values, standardizing date formats, and staging it for analysis. With a clean table sitting in `layoffs_staging2`, it was time to actually dig in and ask the dataset some questions.
 
