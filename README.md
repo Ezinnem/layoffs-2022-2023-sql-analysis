@@ -1,6 +1,6 @@
 # Tech Layoffs 2022–2023: Exploratory Data Analysis (Part 2)
 
-In [Part 1](#), I cleaned and standardized the raw tech layoffs dataset: removing duplicates, fixing null values, standardizing date formats, and staging it for analysis. With a clean table sitting in `layoffs_staging2`, it was time to actually dig in and ask the dataset some questions.
+In [Part 1](https://github.com/Ezinnem/sql-layoffs-data-cleaning), I cleaned and standardized the raw tech layoffs dataset: removing duplicates, fixing null values, standardizing date formats, and staging it for analysis. With a clean table sitting in `layoffs_staging2`, it was time to actually dig in and ask the dataset some questions.
 
 This post walks through that exploratory phase using SQL, and what the numbers revealed about one of the most turbulent stretches in recent tech history.
 
@@ -109,6 +109,3 @@ Using `DENSE_RANK()` partitioned by year let me pull the top 5 companies for eac
 Beyond the specific numbers, this project was a good exercise in a core analytical skill: moving from a single flat aggregate (SUM, MAX) toward layered, comparative questions using CTEs and window functions. The rolling total and the per-year ranking were the two queries that took the analysis from "here are some numbers" to "here's a story."
 
 Next step: visualizing this in [Tableau/Power BI/Python] to make the trend and ranking findings easier to communicate to a non-technical audience. That'll be Part 3.
-
----
-*Dataset: [source link]. Tools: MySQL.*
